@@ -63,6 +63,11 @@ namespace CRUDPoo
                     case "8":
                         controle.ExcluirChamada();
                         break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Digite uma opção válida!\n");
+                        break;
+
                 }
             }
         }
